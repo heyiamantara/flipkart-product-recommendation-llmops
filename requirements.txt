@@ -1,11 +1,41 @@
-langchain
-langchain-astradb
-langchain-huggingface
-langchain-groq
-langchain-community
-datasets
-pypdf
+# =========================
+# Core Application
+# =========================
+flask
 python-dotenv
 pandas
-flask
 prometheus_client
+requests
+tqdm
+
+# =========================
+# LangChain (PINNED)
+# =========================
+langchain==0.1.16
+langchain-core==0.1.52
+langchain-community==0.0.38
+langchain-text-splitters==0.0.1
+
+# =========================
+# LLM Integrations
+# =========================
+langchain-groq
+langchain-huggingface
+langchain-astradb
+
+# =========================
+# Hugging Face (PINNED & COMPATIBLE)
+# =========================
+huggingface-hub==0.25.1
+transformers==4.41.2
+datasets==4.5.0
+
+# =========================
+# Data & Documents
+# =========================
+pypdf
+
+# =========================
+# Validation
+# =========================
+pydantic<3
