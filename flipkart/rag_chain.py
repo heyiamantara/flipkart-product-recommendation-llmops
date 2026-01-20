@@ -1,4 +1,3 @@
-
 from langchain_groq import ChatGroq
 from langchain.chains.history_aware_retriever import create_history_aware_retriever
 from langchain.chains.retrieval import create_retrieval_chain
@@ -35,7 +34,7 @@ class RAGChainBuilder:
         )
 
         qa_prompt = ChatPromptTemplate.from_messages([
-            ("system", "Answer using provided context."),
+            ("system", "Use the following context to answer the question.\n\n{context}"),
             MessagesPlaceholder("chat_history"),
             ("human", "{input}")
         ])
@@ -52,4 +51,3 @@ class RAGChainBuilder:
             input_messages_key="input",
             history_messages_key="chat_history"
         )
-
