@@ -9,7 +9,7 @@ requests
 tqdm
 
 # =========================
-# LangChain (PINNED)
+# LangChain 
 # =========================
 langchain==0.1.16
 langchain-core==0.1.52
@@ -24,7 +24,7 @@ langchain-huggingface
 langchain-astradb
 
 # =========================
-# Hugging Face (PINNED & COMPATIBLE)
+# Hugging Face 
 # =========================
 huggingface-hub==0.25.1
 transformers==4.41.2
