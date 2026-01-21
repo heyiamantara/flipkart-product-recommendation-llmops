@@ -29,7 +29,7 @@ The system is:
 
 ## 🏗️ System Architecture & Workflow
 
-<img src="images/workflow.png" alt="Flipkart Product Recommendation Workflow" width="900"/>
+<img src="images/System-workflow.png" alt="Flipkart Product Recommendation Workflow" width="900"/>
 
 ### 🔄 Architecture Explanation
 
@@ -283,3 +283,18 @@ Configure Grafana:
 4. Click Save & Test
 5. Create dashboards for visualization
 
+---
+## 🤖 Chatbot Interface
+
+Below is the final **Flipkart Product Recommendation Chatbot UI**, powered by **RAG + LLM reasoning**.
+
+<p align="center"> 
+    <img src="images/Flipkart-chatbot.png" alt="Flipkart Product Recommendation Chatbot" width="900"/> 
+</p>
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
+Feel free to use, modify, and distribute with attribution.
