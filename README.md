@@ -284,15 +284,6 @@ Configure Grafana:
 5. Create dashboards for visualization
 
 ---
-## 🤖 Chatbot Interface
-
-Below is the final **Flipkart Product Recommendation Chatbot UI**, powered by **RAG + LLM reasoning**.
-
-<p align="center"> 
-    <img src="images/Flipkart-chatbot.png" alt="Flipkart Product Recommendation Chatbot" width="900"/> 
-</p>
-
----
 
 ## 📜 License
 
