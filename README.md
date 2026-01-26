@@ -282,10 +282,3 @@ Configure Grafana:
 3. URL: http://prometheus-service.monitoring.svc.cluster.local:9090
 4. Click Save & Test
 5. Create dashboards for visualization
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License.
-Feel free to use, modify, and distribute with attribution.
